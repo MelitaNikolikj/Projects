@@ -1,0 +1,2 @@
+nav bar: #F0C3C0 -active, hover:#E6D0C0	h1:#45020B
+

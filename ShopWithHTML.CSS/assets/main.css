@@ -1,0 +1,374 @@
+/*Importing fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+/*Nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 111;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    gap: 25px;   
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-family:'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.active{
+    color: #F0C3C0;
+}
+.active:hover{
+    color: palevioletred;
+}
+nav a:hover{
+    color: #E6D0C0;
+}
+/*END OF NAV*/
+
+
+
+
+/*Body*/
+body{
+    margin: 0;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+/*End of body*/
+
+
+
+
+
+/*Section one*/
+.section-1{
+    min-height: calc(100vh - 40px);
+    background: url("img/display-shiny-luxurious-golden-chain.jpg") no-repeat center/cover;
+    padding-left: 0;
+    display: flex;
+}
+.section-1 h1{
+    padding: 10px 0px 0px 10px;
+    color: #45020B;
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.section-1 p{
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.actbtn{
+    margin-left: 145px;
+    background-color: #45020B;
+    border: 2px solid #45020B;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.actbtn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.actbtn:hover{
+    transform: translate(0px, -5px);
+}
+/*END OF SECTION ONE*/
+
+
+
+
+/*Section two*/
+.inner-80{
+    padding: 0px 150px;
+}
+.inner-80 h2{
+    margin: 0;
+    text-align: center;
+    padding: 70px 0px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #463b4a;
+}
+/*4 Sections*/
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.sections{
+    border: 1px solid rgb(184, 184, 184);
+    box-shadow: 2px 2px 20px rgb(147, 147, 147);
+    width: 25%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+.sections img{
+    width: 100%;
+}
+.sections:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+.sections p{
+    text-align: center;
+    margin-top: 3px;
+    padding: 0px 5px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(75, 74, 74);
+}
+.sections h3{
+    margin: 10px 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #463b4a;
+}
+.btn1{
+    border: 0.5px solid white;
+    padding: 10px 60px;
+    font-size: 1em;
+    background-color:#463b4a;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+
+
+/*Section 3*/
+.left1{
+    background: url("/assets/img/one-elegant-fashion-model-caucasian-beauty-looking-camera-generated-by-artificial-intelligence_188544-127148.jpg") no-repeat center/cover;
+    width: 50%;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.right1{
+    background: url("/assets/img/christmas.jpg")no-repeat center/cover;
+    width: 50%;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.left2{
+    background: url("/assets/img/weddingring.jpg") no-repeat center/cover;
+    width: 50%;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.right2{
+    background: url("/assets/img/2\ \(1\).jpg") no-repeat center/cover;
+    width: 50%;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section3 h1{
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.btn2{
+    width: 25%;
+    border: 1px rgb(223, 132, 127) solid;
+    padding: 8px 0px;
+    background-color: rgb(223, 132, 127);
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+/*End of section 3*/
+
+
+
+
+
+/*SECTION4*/
+.section4 h2{
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #463b4a;
+}
+.gap{
+    margin-top: 10px;
+}
+.section4 p{
+    font-family: 'Playfair Display', serif;
+    color: rgb(114, 112, 112);
+    padding-top: 5px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+/*End of section4*/
+
+
+
+
+
+/*Section5*/
+.section5 {
+    margin: 70px 0px;
+    text-align: start;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    
+}
+.section5 p{
+    color: #28183e;
+    font-size: 18px;
+}
+.section5 a{
+    text-decoration: none;
+    font-size: 15px;
+}/*End of section5*/
+
+
+
+
+/*Footer*/
+footer{
+    background-color: #e6e6e6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: #28183e;
+}
+.bottom{
+    text-align: center;
+    padding-top: 50px;
+    color: #9d9d9c;
+}
+.middlef{
+    margin-top: 20px;
+}
+.middlef a{
+    text-decoration: none;
+    color: #28183e;
+}
+.middlef a:hover{
+    color:palevioletred ;
+}
+.rightf{
+    margin-top: 20px;
+}
+.rightf a{
+    text-decoration: none;
+    color: #28183e;
+}
+.rightf a:hover{
+    color: palevioletred;
+}
+/*End of footer*/
+
+
+/*Media querry*/
+@media screen and (max-width: 780px){
+    .inner-80{
+        padding: 0 30px;
+    }
+    nav{
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .sections{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left1{
+        width: 100%;
+    }
+    .left2{
+        width: 100%;
+    }
+    .right1{
+        width: 100%;
+        margin-top: 0;
+    }
+    .right2{
+        width: 100%;
+    }
+    .top{
+        flex-direction: column;
+        text-align: center;
+    }    
+    .bottom{
+        padding: 0px 30px;
+    }
+}

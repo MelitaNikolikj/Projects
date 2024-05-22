@@ -1,0 +1,316 @@
+/*FONTS - ARSENAL I INTER*/
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/*
+font-family: "Arsenal", sans-serif 400, 700; 
+font-family: "Inter", sans-serif 100-900;
+*/
+
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    color: white;
+}
+
+/*Nav bar*/ 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px -150px;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #42182c;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.hidden{
+  display: none;
+}
+
+
+/*CARDS*/
+.section-1{
+  background: url(/bukjet/img/169923-flower-rose-pink-colored-floral_design-720x1280.jpg) no-repeat center/cover;
+  background-color: rgba(0, 0, 0, 0.767);
+  background-blend-mode: multiply;  
+  padding: 5px 150px 100px 150px;
+}
+.section2{
+  width: 100%;
+  min-height: 100vh;  
+}
+.section2 h3{
+  margin: 0;
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: E4DAE0;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.section2 p{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.flex{
+  display: flex;
+  gap: 10px;
+}
+.sections{
+  border: 1px solid rgb(184, 184, 184);
+  box-shadow: 2px 2px 20px rgb(39, 39, 39);
+  width: 25%;
+  height: 450px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: .4s;
+}
+.sections img{
+  width: 100%;
+}
+
+.sections:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translate(0px, -8px);
+}
+.sections h2{
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.sections h4{
+  font-size: 17px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.gap{
+  margin-top: 40px;
+}
+
+
+/*Buttons*/
+button{
+  padding: 6px 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+}
+
+
+/* Footer*/
+
+
+footer {
+  background-color: #000000;
+}
+
+footer p,
+footer h3 {
+  color: #f1f1f1;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 150px;
+}
+
+.footer-container .footer-main {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-main {
+  z-index: 2;
+}
+
+.img-left {
+  width: 10%;
+  height: 10%;
+}
+
+.img-right {
+  width: 10%;
+  height: 10%;
+}
+
+.logo-socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.working-time h3,
+.location h3 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.working-time p,
+.location p {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+
+/*Media querry*/
+@media screen and (max-width: 870px){
+  nav{
+    padding: 0;
+    flex-direction: column;
+}
+.flex{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sections{
+  width: 45%;
+}
+.section-1{
+  padding: 5px 80px;
+}
+.footer-container{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+.footer-container h3{
+  margin: 5px;
+  padding-bottom: 8px;
+}
+
+}
+
+
+
+@media screen and (max-width: 659px){
+  nav{
+    padding: 0;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex{
+  flex-direction: column;
+  gap: 40px;
+}
+.sections{
+  width: 100%;
+  height: auto;
+}
+.section-1{
+  padding: 5px 50px;
+}
+.sections h4{
+  padding: 24px 0px 24px 0px;
+}
+.footer-container{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+.footer-container h3{
+  margin: 5px;
+  padding-bottom: 8px;
+}
+.hidden{
+  display: block;
+}
+.navbar{
+  display: none;
+}
+}

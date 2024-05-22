@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectBootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+
+    <!--Landing page-->
+    <div class="container-fluid p-0" id="section1">
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item pe-3">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown pe-3">
+                    <a style="color:white" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="rooms.html">Rooms & Packages</a></li>
+                      <li><a class="dropdown-item" href="welness.html">Wellness</a></li>
+                      <li><a class="dropdown-item" href="gastronomy.html">Gastronomy</a></li>
+                      <li><a class="dropdown-item" href="events.html">Seminars & Events</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown pe-3">
+                    <a style="color:white" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Locations
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="swiss.html">Lake Lucerne, Switzerland</a></li>
+                      <li><a class="dropdown-item" href="maldives.html">Maldives, Republic of Maldives</a></li>
+                      <li><a class="dropdown-item" href="newyork.html">New York, USA</a></li>
+                      <li><a class="dropdown-item" href="seychelles.html">Beau Vallon, Seychelles</a></li>
+                      <li><a class="dropdown-item" href="santorini.html">Santorini, Greece</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="btn btn-m btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Contact us</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Send us your message</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Your email:</label>
+                                <input type="email" class="form-control" id="recipient-name" placeholder="Please enter your email">
+                              </div>
+                              <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text" placeholder="Please enter your message here"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-light">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav><!--End of navbar-->
+
+        <!--Text-->
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 d-flex flex-column justify-content-center align-items-center p-0">
+                    <h1 class="display-1 text-white">Welcome to our MN Resorts.</h1>
+                    <p class="p text-white mt-3 mb-5">Where tranquility meets luxury. Indulge your senses and escape the hustle and bustle of everyday life in our serene oasis.</p>
+                    <button type="button" class="btn btn-lg btn-outline-light w-50">Reserve now</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!--End of landing page-->
+
+
+    <!--Section 2 Explore-->
+    <div class="container vh-100 d-flex align-items-center">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-sm-11 col-md-9 col-lg-6 p-0 d-flex flex-column align-items-center">
+                <h1 class="h1 text-start pb-2">Escape the daily grind and come experience the peaceful tranquility of MN Resorts.</h1>
+                <p class="text-start pb-4">With multiple locations throughout the world, busy people can enjoy a nice view, massage or express facial in a peaceful, rejuvenating ambiance within our resorts. Our nurturing resorts have a lot of services who are enhanced by quality personal service from a staff of certified professionals. So come enjoy the rejuvenating solitude of our hospitality, our tours, day spa, and let us pamper </p>
+                <a href="#carouselExampleCaptions" class="btn btn-lg btn-outline-dark w-50" tabindex="-1" role="button" aria-disabled="true">Locations</a>
+            </div>
+        </div>
+    </div><!--End of 2 second section-->
+
+    <!--Section3-locations/CAROUSEL-->
+    <div class="container-fluid p-0" id="cards">
+      <div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+              <img src="img/switz.avif" class="d-block w-100 c-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4 fw-bold">Lake Lucerne, Switzerland</h5>
+                <p class="fw-regular fs-4 mb-5">Visit our resort in Lake Lucerne, Switzerland and enjoy the amazing view of the lake. </p>
+                <button type="button" class="btn btn-lg btn-outline-light w-25">Learn more</button>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="img/maldives.avif" class="d-block w-100 c-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4 fw-bold">Maldives, Republic of Maldives</h5>
+                <p class="fw-regular fs-4 mb-5">Visit our resort in Maldives, Republic of Maldives and enjoy the amazing things that this wonderful place offers. </p>
+                <button type="button" class="btn btn-lg btn-outline-light w-25">Learn more</button>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="img/photo-1485871981521-5b1fd3805eee.avif" class="d-block w-100 c-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4 fw-bold">New York, USA</h5>
+                <p class="fw-regular fs-4 mb-5">Visit our resort in New York, USA and escape the busy lifestyle at our exclusive location in the heart of New York.</p>
+                <button type="button" class="btn btn-lg btn-outline-light w-25">Learn more</button>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="img/seychelles.avif" class="d-block w-100 c-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4 fw-bold">Beau Vallon, Seychelles</h5>
+                <p class="fw-regular fs-4 mb-5">Escape the hustle and bustle at our exclusive resort located in breathtaking Seychelles.</p>
+                <button type="button" class="btn btn-lg btn-outline-light w-25">Learn more</button>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="img/santorini.avif" class="d-block w-100 c-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-4 fw-bold">Santorini, Greece</h5>
+                <p class="fw-regular fs-4 mb-5">Unwind at our exclusive resort nestled in stunning Santorini, Greece.</p>
+                <button type="button" class="btn btn-lg btn-outline-light w-25">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      </div>
+      <!--END OF SECTION3-->
+
+      <!--Section4 Urban-->
+      <div class="container vh-100 d-flex align-items-center">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-8 col-md-6 col-12 ">
+            <h1 >Your Urban Sanctuary</h1>
+            <p class="fs-5">In a world of constant buzzing, ringing, beeping, and email stacking…the stress of modern-day life has the power to hold us captive, to wear down our bodies and minds, and make us feel defeated. But you have a secret weapon.
+             <br><br> The Refuge Spa is your tool for recovery so you can get back out and rise. Rise above the stress, the noise, the pressure, and live life to its fullest. You aren’t going to be a victim of overwhelm. Instead, you’re going to take time to take care of yourself so that you can get back out there and thrive.</p>
+            <button type="button" class="btn btn-lg btn-outline-dark w-50">Reserve Now</button>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <img class="img-fluid float-end" src="img/firstimg.avif" alt="Celebrating in bathrobe" style="height: 500px; width: 400px;">
+          </div>
+        </div>
+      </div>
+
+      <!--Section5/Treatment menu-->
+      <div class="container-fluid img-bg">
+        <div class="container">
+          <h1 class="text-center pt-3 pb-3 display-4 text-white">Treatment Menu</h1>
+          <hr style="border: 1px solid white;">
+          <div class="row">
+            <div class="col-3 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="65" fill="white" class="bi bi-flower1" viewBox="0 0 16 16">
+                <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+              </svg>
+              <h5 class="text-white pt-3">MASSAGES</h5>
+            </div>
+            <div class="col-3 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="65" fill="white" class="bi bi-flower1" viewBox="0 0 16 16">
+                <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+              </svg>
+              <h5 class="text-white pt-3">FACIALS</h5>
+            </div>
+            <div class="col-3 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="65" fill="white" class="bi bi-flower1" viewBox="0 0 16 16">
+                <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+              </svg>
+              <h5 class="text-white pt-3">ESCAPES</h5>
+            </div>
+            <div class="col-3 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="65" fill="white" class="bi bi-flower1" viewBox="0 0 16 16">
+                <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+              </svg>
+              <h5 class="text-white pt-3">BODY TREATMENTS</h5>
+            </div>
+          </div>
+          <hr style="border: 1px solid white">
+        </div>
+      </div><!--End of section5-->
+
+      <!--Section6/explore-->
+      <div class="container vh-100 d-flex align-items-center">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-4 col-md-6 col-12">
+            <img class="img-fluid" src="img/tours1.avif" alt="Celebrating in bathrobe" style="height: 500px; width: 400px;">
+          </div>
+          <div class="col-lg-8 col-md-6 col-12">
+            <h1>Guided Cultural Tours</h1>
+            <p class="fs-5">Embark on a captivating journey with our curated city tours, designed to immerse you in the rich culture and heritage of each destination where our resorts reside. Whether strolling through historic neighborhoods, savoring authentic local cuisine, our expertly guided tours offer a deeper understanding of each city.<br><br>At MN Resorts, we are committed to providing not just accommodation but an enriching travel experience that celebrates the unique charm of every city we call home. Let our tours be your gateway to unforgettable adventures and cherished memories.</p>
+            <button type="button" class="btn btn-lg btn-outline-dark w-50">Reserve Now</button>
+          </div>
+        </div>
+      </div><!--End of section6-->
+
+
+      <!--Section7/our bars-->
+      <!--KAKOOOOOOOOOOOOO-->
+      <div class="container-fluid img-c d-flex">
+        <div class="container d-flex">
+          <div class="row h-100 justify-content-end align-items-center">
+            <div class="col-lg-5 col-sm-12 bg-light bg-opacity-25 p-4">
+              <h1 class="text-white">Relax at The Rise Bar</h1>
+              <p class="text-white">Discover a new artisanal cocktail and craft beer, sip back and relax with a sparkling mocktail, or boost your wellness with a health elixir. Whatever your mix, The Rise Bar has something new to elevate your day.</p>
+              <button type="button" class="btn btn-lg btn-outline-light w-50">Reserve Now</button>
+            </div>
+          </div>
+        </div>
+      </div><!--End of section7-->
+
+      <!--SECTION8/Massages-->
+      <div class="container vh-100 d-flex align-items-center">
+        <div class="row d-flex align-items-center">
+          <div class="col-6">
+            <h1>Inhale, Exhale, Prevail</h1>
+            <p class="fs-5">At MN Resorts, we invite you to unwind and rejuvenate with our luxurious massage services. Treat yourself to a blissful escape as our skilled therapists tailor each session to your needs, using techniques that soothe the body and calm the mind.<br><br> Feel your worries melt away as you experience the ultimate pampering in the serene ambiance of our resort. Let us nurture your well-being and enhance your stay with our exceptional massage offerings, ensuring you leave feeling refreshed and renewed.</p>
+            <button type="button" class="btn btn-lg btn-outline-dark w-50">Reserve Now</button>
+          </div>
+          <div class="col-6">
+            <img class="img-fluid float-end" src="img/massage.avif" alt="Celebrating in bathrobe" style="height: 500px; width: 400px;">
+          </div>
+        </div>
+      </div>
+
+
+      <!--Section9/Upcoming events-->
+      <div class="container">
+        <h1 class="text-center pt-3 pb-3 display-4">Upcoming Events</h1>
+        <hr>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/membership.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Membership Monday</h5>
+                <p class="card-text">Join us for an exclusive event dedicated to our valued members. Enjoy special perks, discounts, and unique experiences tailored just for you.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <small class="text-body-secondary"><i class="bi bi-calendar-date pe-2"></i>05/13</small>
+                <small class="text-body-secondary"><i class="bi bi-clock pe-2"></i>12:00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/happyhour1.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Happy hour</h5>
+                <p class="card-text">Unwind and socialize with friends and fellow guests as you enjoy specially crafted cocktails and delightful appetizers at irresistible prices. </p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <small class="text-body-secondary"><i class="bi bi-calendar-date pe-2"></i>05/15</small>
+                <small class="text-body-secondary"><i class="bi bi-clock pe-2"></i>14:00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/winewalk.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wine Walk</h5>
+                <p class="card-text">Discover a selection of exquisite wines from around the world as you stroll through our scenic grounds.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <small class="text-body-secondary"><i class="bi bi-calendar-date pe-2"></i>05/18</small>
+                <small class="text-body-secondary"><i class="bi bi-clock pe-2"></i>14:00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--End of section-->
+
+      <!--FOOTER-->
+      <div class="container-fluid mt-5 footer">
+        <div class="row d-flex justify-content-center pb-5">
+          <div class="col-6 mt-5 d-flex flex-column align-items-center">
+            <h2 class="h4">Hours for Spa</h2>
+            <p class="m-1">Monday - Saturday: 10:00 - 20:00</p>
+            <p class="pb-3">Sunday: 10:00 - 19:00</p>
+            <div class="d-flex pb-5">
+              <a href="#"><img src="img/facebook.png" width="32" height="35" class="me-3"></a>
+              <a href="#"><img src="img/instagram.png"  width="32" height="35" class="me-3"></a>
+              <a href="#"><img src="img/twitter.png" width="32" height="35"></a>
+            </div>
+            <div class="d-flex text-center">
+              <p class="fw-bold me-3"><a href="#">RESORT POLICY</a></p>
+              <p class="fw-bold me-3"><a href="#">ORDER & PAYMENTS</a></p>
+              <p class="fw-bold me-3"><a href="#">RETURN & EXCHANGE</a></p>
+              <p class="fw-bold"><a href="#">TERMS & CONDITIONS</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+</body>
+</html>

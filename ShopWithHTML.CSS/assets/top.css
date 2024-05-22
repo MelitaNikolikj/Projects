@@ -1,0 +1,157 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+/*Nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 111;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    gap: 25px;   
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-family:'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.active{
+    color: #F0C3C0;
+}
+.active:hover{
+    color: palevioletred;
+}
+nav a:hover{
+    color: #E6D0C0;
+}
+/*END OF NAV*/
+
+
+
+/*Section1*/
+body{
+    margin: 0;
+    padding-top: 45px;
+    
+}
+.section1{
+    max-height: calc(100vh - 40px);
+    padding: 0px 100px;
+    display: flex;
+    gap:80px;
+}
+.left{
+    width: 50%;
+    padding-top: 10px;
+    text-align: left;
+}
+.right{
+   width: 50%;
+}
+.images{
+    margin: 5px;
+}
+.img1{
+    float: left;
+    margin-right: 10px;
+}
+.left h1{
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #28183e;
+}
+.top{
+    display: flex;
+    height: 50%;
+    gap: 15px;
+}
+.bottom{
+    display: flex;
+    height: 50%;
+    gap: 15px;
+    margin-top: 10px;
+}
+.back a{
+    text-decoration: none;
+    color:rgb(223, 132, 127);
+    font-size: 20px;
+}
+
+.left p{
+    font-size: 16px;
+    color: black;
+    line-height: 1.25em;
+    padding: 0 0 0.5em 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #e6e6e6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.top2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: #28183e;
+}
+.bottom2{
+    text-align: center;
+    padding-top: 50px;
+    color: #9d9d9c;
+}
+.middlef{
+    margin-top: 20px;
+}
+.middlef a{
+    text-decoration: none;
+    color: #28183e;
+}
+.middlef a:hover{
+    color:palevioletred ;
+}
+.rightf{
+    margin-top: 20px;
+}
+.rightf a{
+    text-decoration: none;
+    color: #28183e;
+}
+.rightf a:hover{
+    color: palevioletred;
+}
+/*End of footer*/
+
+
+
+/*Media querry*/

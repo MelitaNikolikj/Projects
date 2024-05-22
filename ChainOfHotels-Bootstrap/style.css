@@ -1,0 +1,81 @@
+#section1{
+    background: url("img/photo-1600334089648-b0d9d3028eb2.avif") no-repeat center/cover;
+    min-height: 100vh;
+}
+.c-item{
+    height: 100vh;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+.t-item{
+    height: 40vh;
+}
+.t-img{
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+.img-bg{
+    background: url("img/smallbg.avif") no-repeat center/cover;
+    min-height: 50vh;
+}
+.img-c{
+    background: url("img/cocktails.avif") no-repeat center/cover;
+    min-height: 75vh;
+    filter: brightness(0.8);
+}
+.footer{
+    background-color: rgb(240, 240, 240);
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.card-title {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: var(--bs-secondary-color)!important;
+}
+.text{
+    color: grey;
+}
+#sectionswiss{
+    background: url("img/switzerland.webp") no-repeat center/cover;
+    min-height: 100vh;
+}
+#landingpage{
+    background-color: rgba(19, 19, 19, 0.623);
+}
+#container2{
+    background: url("img/soba1.webp") no-repeat center/cover;
+    min-height: 80vh;
+}
+#col2{
+    background-color: rgba(0, 0, 0, 0.596);
+}
+#sectionmaldives{
+    background: url("img/maldiveswallpaper.webp") no-repeat center/cover;
+    min-height: 100vh;
+}
+#containermaldives{
+    background: url("img/maldivesroom.webp") no-repeat center/cover;
+    min-height: 80vh;
+}
+#sectionsantorini{
+    background: url("img/santoriniwallpaper.avif") no-repeat center/cover;
+    min-height: 100vh;
+}
+#containersantorini{
+    background: url("img/santoriniexplore.avif") no-repeat center/cover;
+    min-height: 80vh;
+}
+#sectionnewyork{
+    background: url("img/newyorkwallpaper.avif") no-repeat center/cover;
+    min-height: 100vh;
+}
+#containernewyork{
+    background: url("img/newyorksection.webp") no-repeat center/cover;
+    min-height: 80vh;
+}

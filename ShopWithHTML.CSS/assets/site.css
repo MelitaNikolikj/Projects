@@ -1,0 +1,275 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+/*Nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 111;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    gap: 25px;   
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-family:'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.active{
+    color: #F0C3C0;
+}
+.active:hover{
+    color: palevioletred;
+}
+nav a:hover{
+    color: #E6D0C0;
+}
+/*END OF NAV*/
+
+/*Section*/
+body{
+    margin: 0;
+    padding-top:40px ;
+}
+.section1{
+    min-height: calc(100vh - 40px);
+    padding: 0px 100px;
+    display: flex;
+    gap:100px;
+}
+.left{
+    width: 50%;
+    padding-top: 10px;
+    text-align: left;
+}
+.right{
+    width: 50%;
+}
+.images{
+    display: block;
+    margin: 5px;
+}
+.img1{
+    float: left;
+    margin-right: 10px;
+}
+.left h1{
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.left h4{
+    font-size: 2em;
+    margin: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.left p{
+    font-size: 16px;
+    max-width: 65ch;
+    color: #000;
+    line-height: 1.25em;
+    padding: 0 0 0.5em 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.right{
+    padding-top: 25px ;
+}
+
+
+
+
+
+
+/*Right side*/
+.row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  .col-50 {
+    -ms-flex: 50%; 
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; 
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: rgb(223, 132, 127);
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(184, 99, 94);
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  .col-50 h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .col-75 label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+
+
+
+
+/*Footer*/
+footer{
+    background-color: #e6e6e6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: #28183e;
+}
+.bottom{
+    text-align: center;
+    padding-top: 50px;
+    color: #9d9d9c;
+}
+.middlef{
+    margin-top: 20px;
+}
+.middlef a{
+    text-decoration: none;
+    color: #28183e;
+}
+.middlef a:hover{
+    color:palevioletred ;
+}
+.rightf{
+    margin-top: 20px;
+}
+.rightf a{
+    text-decoration: none;
+    color: #28183e;
+}
+.rightf a:hover{
+    color: palevioletred;
+}
+/*End of footer*/
+ 
+
+
+/*Back to the page*/
+.back{
+    margin-top: 0px;
+}
+.back a{
+    text-decoration: none;
+    color:rgb(223, 132, 127);
+}
+
+
+@media screen and (max-width: 480px) {
+    nav{
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .section1{
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .top{
+        flex-direction: column;
+        text-align: center;
+    }    
+    .bottom{
+        padding: 0px 30px;
+    }
+    .img1{
+        margin: 0;
+    }
+}
