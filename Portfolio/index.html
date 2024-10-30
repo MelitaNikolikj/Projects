@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--NAVBAR-->
+    <header class="header">
+        <a href="#" class="logo"><span class="pink">M</span>elita.</a>
+
+        <nav class="navbar" id="sidemenu">
+            <a href="#" class="active">Home</a>
+            <a href="#aboutme">About</a>
+            <a href="#">My Work</a>
+            <a href="#contactme">Contact</a>
+            <i class='bx bx-x icon' onclick="closemenu()"></i>
+        </nav>
+        <i class='bx bx-menu icon' onclick="openmenu()"></i>
+    </header>
+    <!--End of navbar-->
+
+    <!--Landing page-->
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Melita Nikolikj</h1>
+            <h3>Frontend Developer and Web Designer</h3>
+            <p>passionate about creating beautiful, user-centric digital experiences. With a keen eye for design and a knack for coding, I transform ideas into responsive and engaging websites that resonate with users. Let's collaborate to bring your vision to life and elevate your online presence!</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's talk</a>
+            </div>
+        </div>
+    </section>
+    <!--End of landing page-->
+
+
+    <!--About me section-->
+    <section class="about" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/img/aboutme.jpg" class="image-about">
+                </div>
+                <div class="about-col-mobile">
+                    <img src="assets/img/mobile-version.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I’m Melita, a 24-year-old front-end and web designer. I’ve always had a passion for creativity, and my website is my canvas, allowing me to express my unique vision through every design. I believe that great design is not just about aesthetics; it’s also about logic and functionality.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Services</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span class="tab-titles-pink">Frontend Developer</span><br>Website Development</li>
+                            <li><span class="tab-titles-pink">UX/UI Designer</span><br>Designing Web/App Interfeces</li>
+                            <li><span class="tab-titles-pink">Customer Support</span><br>Supporting Customers</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span class="tab-titles-pink">02/2016 - 09/2019 - Waitress</span><br>I developed a strong multitasking and communication skills, improving my ability to collaborate effectively with teammates to deliver exceptional service.</li>
+                            <li><span class="tab-titles-pink">05/2020 - 06/2022 - Marketing Agent and Customer Support </span><br>I have worked with clients to solve problems, helping them expand their user base on the website while maintaining and updating their websites.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="tab-titles-pink">10/2019 - Present - Faculty of Computer Science & Engineering</span><br>Software Engineering and Information
+                                System</li>
+                            <li><span class="tab-titles-pink">10/2023 - 07/2024 - Qinshift Academy</span><br>Frontend Developer and Web Designer</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of about me section-->
+
+    <!--SERVICES SECTION-->
+    <section class="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt services-icon' ></i>
+                    <h2>Frontend</h2>
+                    <p><span class="tab-skills-pink">HTML</span> <span class="tab-skills-pink">CSS</span> <span class="tab-skills-pink">JavaScript</span> <span class="tab-skills-pink">React</span> <span class="tab-skills-pink">Git</span> <span class="tab-skills-pink">SCSS</span> <span class="tab-skills-pink">JQuery</span> <span class="tab-skills-pink">Wordpress</span> <span class="tab-skills-pink">API</span> <span class="tab-skills-pink">SEO and Marketing</span> <span class="tab-skills-pink">Responsive Design</span></p>
+                </div>
+                <div>
+                    <i class='bx bx-crop services-icon' ></i>
+                    <h2>UI/UX</h2>
+                    <p><span class="tab-skills-pink">Figma</span> <span class="tab-skills-pink">Adobe Photoshop</span> <span class="tab-skills-pink">Adobe Illustrator</span> <span class="tab-skills-pink">Design Principles</span> <span class="tab-skills-pink">UX/UI</span> <span class="tab-skills-pink">Responsive Design</span></p>
+                </div>
+                <div>
+                    <i class='bx bx-support services-icon' ></i>  
+                    <h2>Customer Support</h2>
+                    <p><span class="tab-skills-pink">Microsoft Office</span> <span class="tab-skills-pink">Google Analytics</span> <span class="tab-skills-pink">Time Management</span> <span class="tab-skills-pink">Communication</span> <span class="tab-skills-pink">Problem-solving</span> <span class="tab-skills-pink">Organizational skills</span> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of services section-->
+
+
+    <!--PORTFOLIO SECTION-->
+    <section class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/img/Homepage1.png">
+                    <div class="layer">
+                        <h3>Coaching Website</h3>
+                        <p>
+                          <ul>
+                            <li>Role: Designer, Developer.</li>
+                            <li>Teammates: One designer, one developer.</li>
+                            <li>Helping with the design process, and developing the website with Wordpress.</li>
+                            <li>This website is about coaching and offering the programs to the users.</li>
+                          </ul>
+                        </p>
+                        <a href="https://natashawellbeingacademy.com/"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/img/Homepage4.png">
+                    <div class="layer">
+                        <h3>Flower Shop</h3>
+                        <p>
+                            <ul>
+                                <li>Role: Designer, Developer.</li>
+                                <li>Making the design and developing the website with Wordpress</li>
+                                <li>This website is about flower shop, where users can buy their products.</li>
+                            </ul>
+                        </p>
+                        <a href="https://flowershopjasmin.com/"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/img/Homepage3.png">
+                    <div class="layer">
+                        <h3>Movie site with API</h3>
+                        <p>
+                            <ul>
+                                <li>Role: Designer, Developer.</li>
+                                <li>Developing the site with HTML, CSS, JavaScript.</li>
+                                <li>This site fetches movie data for popular, top-rated, upcoming, and trending movies including the search functionality.</li>
+                            </ul>
+                        </p>
+                        <a href="http://127.0.0.1:5502/index.html"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+    <!--End of portfolio section-->
+
+
+    <!--CONTACT SECTION-->
+    <section class="contact" id="contactme">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class='bx bxs-send'></i> mnikolik44@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bx-envelope'></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of contact section-->
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

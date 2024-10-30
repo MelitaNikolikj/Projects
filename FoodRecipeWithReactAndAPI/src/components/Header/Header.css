@@ -1,0 +1,33 @@
+.holder{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(19, 2, 24, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cooking-background-dg5u6vitzfnv3mrw.jpg") center/cover no-repeat;
+}
+.header-content{
+    min-height: 100vh;
+    background-color: #eb653844;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(19, 2, 24, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cooking-background-dg5u6vitzfnv3mrw.jpg") center/cover no-repeat; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-title{
+    font-size: 4.2rem;
+}
+.header-text{
+    opacity: 0.8;
+    max-width: 770px;
+}
+.header-content h2{
+    margin: 0;
+    text-align: center;
+    /* padding-top: 100px; */
+    color: white;
+}
+.header-content p{
+    /* display: inline; */
+    margin: 0 auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    max-width: 75ch;
+}
