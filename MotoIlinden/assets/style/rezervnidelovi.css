@@ -1,0 +1,232 @@
+/*Importing fonts from Google Fonts*/
+/*Poppins, <p> font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Proza libre - medium italic 500italic // for the third button text*/
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+/*nav bar*/
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161616c5;
+    z-index: 10; 
+    height: 80px; 
+}
+nav .logo{
+    width: 90px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Poppins", serif; 
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid #F02525; 
+    padding-bottom: 18px;
+    color: #fdcbcb
+}
+.shopping-cart{
+    width: 25px;
+}
+
+/*end of nav bar*/
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    height: calc(100vh - 80px); 
+    overflow: hidden; 
+}
+.herobannerimg {
+    width:50%;
+    height: 100%;
+    overflow: hidden;
+}
+.herobannerimg img {
+    width: 100%;
+    height: 100%;
+}
+.content-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.content-text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #F02525;
+    padding-top: 22px;
+    padding-bottom: 8px;
+}
+
+.content-text p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: 161616;
+    padding-bottom: 22px;
+}
+.content hr{
+    width: 20%;
+}
+.content-text a {
+    text-decoration: none;
+    display: inline-block;
+    color: #161616;
+    font-size: 18px;
+    font-family: "Proza Libre", serif;
+    font-weight: 500;
+    font-style: italic;
+    border-top: solid 1px #161616;
+    padding-top: 4px;
+    width: 280px;
+}
+.content-text a i {
+    margin-left: 5px;
+    font-size: 20px;
+}
+@keyframes gearanim{
+    from {opacity: 0; transform: translateX(100%);}
+    to {opacity: 1; transform: translateX(0)};
+}
+.image-gear.in-view{
+    animation: gearanim 2s ease-out forwards;
+    opacity: 0;
+}
+@keyframes textanim{
+    from {opacity: 0; transform: translateX(-100%);}
+    to {opacity: 1; transform: translateX(0)};
+}
+.content-text.in-view{
+    animation: textanim 2s ease-out forwards;
+    opacity: 0;
+}
+/*End of header*/
+/*Section 1*/
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 116px 10px;
+    background-color: #161616;
+}
+.container-70{
+    width: 70%;
+}
+.container-70 p{
+    color: white;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+/*End of section1*/
+
+/*Section2*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 5%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;   
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.158);
+}
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+}
+.card img{
+    object-fit: contain;
+}
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 10px 0px;
+    color: #F02525;
+    text-align: center;
+}
+/*End of section2*/
+
+/*Section3*/
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 116px 10px;
+    background: url("../img/Oprema/background.png") no-repeat center/cover;
+}
+.section3-text{
+    text-align: center;
+    width: 70%;
+}
+.section3-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    color: white;
+}
+.section3-text p{
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 24px;
+}
+.btn-tertiary{
+    border: none;
+    padding: 16px 14px;
+    background-color: #f0252500;
+    border: 1px solid white;
+}
+.btn-tertiary a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*End of section3*/

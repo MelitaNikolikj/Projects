@@ -1,0 +1,233 @@
+/*Importing fonts from Google Fonts*/
+/*Poppins, <p> font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Proza libre - medium italic 500italic // for the third button text*/
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /*Landing page*/
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,11,11,0.9) 25%, rgba(39,39,39,0) 100%);
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+/*nav bar*/
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161616c5;
+}
+nav .logo{
+    width: 90px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Poppins", serif; 
+    transition: 0.5s
+}
+nav ul li a:hover{
+    border-bottom: 3px solid #F02525; 
+    padding-bottom: 18px;
+    color: #fdcbcb
+}
+.shopping-cart{
+    width: 25px;
+}
+/*end of nav bar*/
+.content{
+    display: block;
+    width: 400px;
+    padding-top: 40px;
+}
+.content p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 22px;
+}
+.content hr{
+    width: 20%;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Proza Libre", serif;
+    font-weight: 500;
+    font-style: italic;
+    border-top: solid 1px #fff;
+    padding-top: 4px;
+}     
+.main-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #F02525;
+    padding-top: 22px;
+    padding-bottom: 8px;
+}
+.back-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+    /*END OF LANDING PAGE*/
+
+    /*Section 1 - tgb models*/
+.text-model{
+    padding-top:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    color: #F02525;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 5%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;   
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.158);
+}
+.card-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+}
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 32px 0px;
+    color: #161616;
+}
+.card-button {
+    padding: 12px 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f02525;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.card-button:hover {
+    background-color: #d21b1b;
+}
+    /*End of section1 */
+
+    /*Section4*/
+.section4{
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+}
+.section4 .image{
+    width: 50%;
+}
+@keyframes atvanim{
+    from {opacity: 0; transform: translateX(-100%);}
+    to {opacity: 1; transform: translateX(0)};
+}
+.image-atv.in-view{
+    animation: atvanim 2s ease-out forwards;
+    opacity: 0;
+}
+.section4-content{
+    width: 50%;
+}
+.container-80{
+    width: 90%;
+}
+.container-80 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+.container-80 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #F02525;
+    padding-bottom: 8px;
+}
+.container-80 p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+.btn {
+    border: none;
+    padding: 16px 14px;
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn-primary{
+    color: white;
+    background-color: #F02525;
+}
+    /*Section4*/
+
+    /*Section5*/
+.section5-container{
+    padding-left: 8%;
+}
+@keyframes partanim{
+    from {opacity: 0; transform: translateX(100%);}
+    to {opacity: 1; transform: translateX(0)};
+}
+.image-part.in-view{
+    animation: partanim 2s ease-out forwards;
+    opacity: 0;
+}
+    /*End of Section5*/
