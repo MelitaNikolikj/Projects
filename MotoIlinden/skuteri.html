@@ -13,14 +13,40 @@
         <div class="hero">
             <nav>
                 <img src="assets/img/moto-ilinden-light.svg" alt="Moto Ilinden Logo" class="logo">
-                <ul>
-                    <li><a href="#">Почетна</a></li>
-                    <li class="dropdown"><a href="#">Мотори</a></li>
-                    <li><a href="#">Опрема</a></li>
-                    <li><a href="#">Резервни делови</a></li>
-                    <li><a href="#">Контакт</a></li>
-                    <li><a href="#"><img src="assets/img/shopping-cart.svg" alt="shopping-cart" class="shopping-cart"></a></li>
-                </ul>
+                <div class="group">
+                    <ul class="main-menu">
+                        <li class="nav-item"><a href="#" class="nav-link">Почетна</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Мотори<span><i class="fa-solid fa-caret-down dropdown-icon"></i></span></a>
+                            <ul class="dropdown">
+                                <li class="nav-item"><a href="atv.html" class="nav-link">АТВ</a></li>
+                                <li class="nav-item"><a href="skuteri.html" class="nav-link">Скутери</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Крос</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="oprema.html" class="nav-link">Опрема</a></li>
+                        <li class="nav-item"><a href="rezervnidelovi.html" class="nav-link">Резервни делови</a></li>
+                        <li class="nav-item"><a href="kontakt.html" class="nav-link">Контакт</a></li>
+                    </ul>
+                    <div class="burger-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="icon-container">
+                        <span class="search-icon">
+                            <i class="fa-solid fa-magnifying-glass searchBtn" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-xmark fa-lg closeBtn" style="color: #ffffff;"></i>
+                        </span>
+                        <span class="cart">
+                            <li><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a></li>
+                        </span>
+                            <!-- <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li> -->
+                    </div>
+                </div>
+                <div class="searchBox">
+                    <input type="text" placeholder="Search here. . .">
+                </div>
             </nav>
             <div class="content">
                 <img src="/assets/img/Skuterisite/wallpaperflare.com_wallpaper.jpg" class="back-img">
@@ -28,7 +54,7 @@
                     <h1>Слобода на две тркала!</h1>
                     <p>Патувајте стилски низ градот со нашите модерни и економични скутери. Од 50cc до 250cc, нудиме совршено решение за секој возач. </p>
                 </div>
-                <a href="#">Погледни ги сите модели<span><i class="fi fi-ts-arrow-small-down"></i></span></a>
+                <a href="#section1">Погледни ги сите модели<span><i class="fi fi-ts-arrow-small-down"></i></span></a>
             </div>
         </div>
     </header>
@@ -36,33 +62,33 @@
 
     <!--SHOP-->
     <!--Section 1-TGB Models-->
-    <section class="section1">
+    <section class="section1" id="section1">
         <h1 class="text-model">Скутери</h1>
         <div class="grid-container">
             <div class="card">
                 <img src="assets/img/Skuterisite/skuter1.jpg" alt="Image 1" class="card-img">
                 <h1 class="card-title">SKUTER HMC MUSTANG 50cc</h1>
-                <button class="card-button">Види детали</button>
+                <button class="card-button"><a href="#">Види детали</a></button>
             </div>
             <div class="card">
                 <img src="assets/img/Skuterisite/skuter2.jpg" alt="Image 2" class="card-img">
                 <h1 class="card-title">APRILIA 125 SR</h1>
-                <button class="card-button">Види детали</button>
+                <button class="card-button"><a href="#">Види детали</a></button>
             </div>
             <div class="card">
                 <img src="assets/img/Skuterisite/skuter3.jpg" alt="Image 3" class="card-img">
                 <h1 class="card-title">HMC FORMULA X – 50CC</h1>
-                <button class="card-button">Види детали</button>
+                <button class="card-button"><a href="#">Види детали</a></button>
             </div>
             <div class="card">
                 <img src="assets/img/Skuterisite/skuter4.jpg" alt="Image 4" class="card-img">
                 <h1 class="card-title">SYM JET 14</h1>
-                <button class="card-button">Види детали</button>
+                <button class="card-button"><a href="#">Види детали</a></button>
             </div>
             <div class="card">
                 <img src="assets/img/Skuterisite/skuter5.jpg" alt="Image 5" class="card-img">
                 <h1 class="card-title">SKUTER 8M CHARGER</h1>
-                <button class="card-button">Види детали</button>
+                <button class="card-button"><a href="#">Види детали</a></button>
             </div>
         </div>
     </section>
@@ -77,7 +103,7 @@
             <div class="container-80">  
                 <h1>Не заборавајте на вашата заштитна опрема!</h1>
                 <p class="section4-p">Безбедноста на патот е најважна! Нашата заштитна опрема е дизајнирана да ви обезбеди максимална заштита и удобност, така што можете да се фокусирате на авантурите, без да се грижите за својата безбедност. Независно дали сте искусен возач или нов на теренот, ние имаме нешто за секого. Подгответе се за безбедно и возбудливо искуство со нашата заштитна опрема!</p>
-                <button class="btn btn-primary"><a href="#">Погледни повеќе</a></button>
+                <button class="btn btn-primary"><a href="oprema.html">Погледни повеќе</a></button>
             </div>
         </div>
     </section>
@@ -89,7 +115,7 @@
             <div class="container-80 section5-container">  
                 <h1>Закажи пробно возење уште денес.</h1>
                 <p class="section5-p">Не бараме да ни верувате само на збор. И ние сакаме лично да се увериме во моќта и квалитетот на нашите возила. Затоа, често ги возиме, а ве покануваме и вас. Искористете ја можноста да го искусите возењето од прва рака и откријте зошто сме најдобри!</p>
-                <button class="btn btn-primary"><a href="#">Закажи веднаш</a></button>
+                <button class="btn btn-primary"><a href="kontakt.html">Закажи веднаш</a></button>
             </div>
         </div>
         <div class="image">
@@ -98,6 +124,58 @@
     </section>
     <!--End of section-->
     <!--End of shop-->
+
+    <!--Footer-->
+    <footer>
+        <div class="box-container">
+            <div class="box">
+                <h3>Мото Илинден</h3>
+                <p>Добредојдовте во возбудливиот свет на авантура и возбуда на асфалт и off-road искуства.</p>
+                <div class="social-media">
+                    <p>Следете нè во авантурата:</p>
+                    <div class="share">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Contact info-->
+            <div class="box">
+                <h3>Контакт</h3>
+                <a href="#" class="links"><i class="fa-solid fa-location-dot"></i>Марино, Улица 500, <br>Скопје 1000</a>
+                <a href="#" class="links"><i class="fa-solid fa-phone"></i>+389 77 777 777</a>
+                <a href="#" class="links"><i class="fa-solid fa-envelope"></i>motoilinden@gmail.com</a>
+           </div>
+
+           <!--Quick links-->
+           <div class="box">
+                <h3>Брзи Линкови</h3>
+                <a href="index.html" class="links"><i class="fa-solid fa-arrow-right"></i>Почетна</a>
+                <a href="atv.html" class="links"><i class="fa-solid fa-arrow-right"></i>АТВ</a>
+                <a href="skuteri.html" class="links"><i class="fa-solid fa-arrow-right"></i>Скутери</a>
+                <a href="oprema.html" class="links"><i class="fa-solid fa-arrow-right"></i>Опрема</a>
+                <a href="rezervnidelovi.html" class="links"><i class="fa-solid fa-arrow-right"></i>Резервни делови</a>
+                <a href="kontakt.html" class="links"><i class="fa-solid fa-arrow-right"></i>Контакт</a>
+            </div>
+
+            <!--Newsletter-->
+            <div class="box">
+                <h3>Билтен</h3>
+                <p>Претплатете се за најнови известувања</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Вашиот емаил" class="email">
+                    <input type="submit" value="Претплати се" class="btn-primary btn-submit">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End of Footer-->
+    
     <script src="assets/scripts/animation.js"></script>
+    <script src="assets/scripts/hamburgermenu.js"></script>
+    <script src="assets/scripts/searchBar.js"></script>
+    <script src="https://kit.fontawesome.com/f853c9cfc1.js" crossorigin="anonymous"></script>
 </body>
 </html>

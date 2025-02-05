@@ -1,0 +1,161 @@
+.parallax-image-linhai600{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/Linhai-600-ProMax/527009_1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.column-2-linhai650{
+    background-image: url('../assets/img/Productview/Linhai-600-ProMax/Linhai2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.parallax-image-tgb600ltx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/TGB-ltx-600/tgbbg.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.column-2-tgbblade600{
+    background-image: url('../assets/img/Productview/TGB-ltx-600/tgb600-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.parallax-image-tgb600ltxeps{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/TGB-600-ltx-eps/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.parallax-image-tgb600ltxmaxeps{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/TGB-600-ltx-max-eps/herobannerbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.parallax-image-tgb1000ltxeps{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/TGB-1000-ltx-eps/blade-1000ltx-eps-04.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.column-2-tgbblade1000ltxeps{
+    background-image: url('../assets/img/Productview/TGB-1000-ltx-eps/blade-1000-lt-eps-600x600-4.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.parallax-image-tgb1000ltxmaxeps{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/TGB-1000-ltx-max-eps/1000-max-eps-le-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.parallax-image-tgb1000ltxmaxeps-limited{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/TGB-1000-limited-max-eps/tgb-blade+1000-LTX-EPS-limited-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.parallax-image-goes400lterrox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/GOES-400-L-TERROX/goes-400-L-errox-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.column-2-goes400lterrox{
+    background-image: url('../assets/img/Productview/GOES-400-L-TERROX/goes-400-3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.parallax-image-goes500lterrox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/Productview/GOES-500-L-TERROX/GOES-500-L-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.column-2-goes500lterrox{
+    background-image: url('../assets/img/Productview/GOES-500-L-TERROX/goes-500-terrox-l-3.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
